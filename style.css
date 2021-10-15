@@ -1,0 +1,159 @@
+@font-face{
+    font-family: graphik;
+    src: url('fonts/Graphik_Black.eot')
+    src:  url('fonts/Graphik_Black.ttf');
+}
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+div.topnav{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-color: #FFFFFF;
+    width: 25vw;
+    font-size: 1.1vw;
+    text-align: center;
+
+}
+
+
+.imageholder{
+    width: 100%;
+    position: relative;
+}
+
+p.articletitle{
+    font-size: 200%;
+
+}
+p.articletext{
+    text-align: left;
+}
+
+
+a.navi{
+    padding: 2%;
+    font-size: 100%;
+    text-decoration: none;
+    font-family: Verdana;
+    color: purple;
+}
+
+
+div.column{
+    display: block;
+    width: 60%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFFFFF;
+    font-family: 'Tahoma';
+    text-align: center;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+div.quote{
+    margin-top: -4%;
+    color: purple;
+}
+
+p{
+
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 110%;
+}
+strong{
+    font-size: 2em;
+}
+
+
+
+img.logo {
+    display: block;
+    width: 25vw;
+}
+
+.imageholder img{
+    width: 100%;
+    height: auto;
+}
+
+
+.imageholder .btn1 {
+  position: absolute;
+  top: 62%;
+  left: 32%;
+  transform: translate(-62%, -32%);
+  -ms-transform: translate(-62%, -32%);
+  color: purple;
+  font-size: 180%;
+  text-align: center;
+  background: white;
+  border-style: solid;
+  border-color: purple;
+  border-width: thin;
+}
+.imageholder .btn2 {
+  position: absolute;
+  top: 62%;
+  left: 70%;
+  transform: translate(-62%, -70%);
+  -ms-transform: translate(-62%, -70%);
+  color: purple;
+  font-size: 180%;
+  text-align: center;
+  background: white;
+  border-style: solid;
+  border-color: purple;
+  border-width: thin;
+}
+.imageholder .btn1:hover { 
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+.imageholder .btn2:hover { 
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+img.qmarks{
+    display: block;
+    width: 8%;
+    opacity: 0.8;
+
+}
+
+footer{
+    display: block;
+    background-color: #FFFFFF;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5%;
+    font-size: 0.9vw;
+    font-family: 'Tahoma';
+}
+
+hr.solid {
+  border-top: 3px solid purple;
+}
+
+p.sectiontitle{
+    color: purple;
+    text-align: left;
+    font-size: 200%;
+}
+
+a.postlink{
+    color: purple;
+    text-align: left;
+    font-size: 120%;
+    text-decoration: none;
+
+}
